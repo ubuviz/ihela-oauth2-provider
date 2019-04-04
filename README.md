@@ -11,6 +11,7 @@ Quick start
     `pip install django-allauth` and following the [install guide](https://django-allauth.readthedocs.io/en/latest/installation.html)
 1. Add "ihelaprovider" to your INSTALLED_APPS setting like this:
 
+    ```python
     INSTALLED_APPS = [
         ...
         "allauth",
@@ -18,10 +19,13 @@ Quick start
         "allauth.socialaccount",
         "vendor_apps.ihelaprovider",
     ]
+    ```
 
 2. Include the polls URLconf in your project urls.py like this::
 
+    ```python
     path("oAuth2/", include("ihelaprovider.urls")),
+    ```
 
 3. Run `python manage.py migrate` to create the polls models.
 
