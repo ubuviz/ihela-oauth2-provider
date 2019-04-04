@@ -3,8 +3,6 @@ iHela Provider
 
 iHela Provider is a simple Django app to enable oAuth2 authentication with django-allauth.
 
-Detailed documentation is in the "docs" directory.
-
 Quick start
 -----------
 1. Install [django-allauth](https://github.com/pennersr/django-allauth)

@@ -12,20 +12,20 @@ setup(
     version="0.1",
     packages=find_packages(),
     include_package_data=True,
-    license="BSD License",  # example license
+    license="MIT License",
     description="A simple Django app to enable oAuth2 for iHela with django-allauth.",
     long_description=README,
-    url="https://ihela.online/",
+    url="https://github.com/ubuviz/ihela-oauth2-provider",
     author="UbuViz",
     author_email="info@ubuviz.com",
     classifiers=[
         "Environment :: Web Environment",
         "Framework :: Django",
-        "Framework :: Django :: 2.0",  # replace "X.Y" as appropriate
-        "Framework :: Django :: 2.1",  # replace "X.Y" as appropriate
-        "Framework :: Django :: 2.2",  # replace "X.Y" as appropriate
+        "Framework :: Django :: 2.0",
+        "Framework :: Django :: 2.1",
+        "Framework :: Django :: 2.2",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: BSD License",  # example license
+        "License :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.5",
