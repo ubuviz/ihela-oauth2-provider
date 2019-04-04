@@ -18,6 +18,7 @@ setup(
     url="https://github.com/ubuviz/ihela-oauth2-provider",
     author="UbuViz",
     author_email="info@ubuviz.com",
+    install_requires=["Django >= 2.0", "django-allauth >= 0.39.0"],
     classifiers=[
         "Environment :: Web Environment",
         "Framework :: Django",
@@ -25,7 +26,7 @@ setup(
         "Framework :: Django :: 2.1",
         "Framework :: Django :: 2.2",
         "Intended Audience :: Developers",
-        "License :: MIT License",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.5",
