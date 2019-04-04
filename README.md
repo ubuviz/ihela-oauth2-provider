@@ -17,7 +17,7 @@ Quick start
         "allauth",
         "allauth.account",
         "allauth.socialaccount",
-        "vendor_apps.ihelaprovider",
+        "ihelaprovider",
     ]
     ```
 
