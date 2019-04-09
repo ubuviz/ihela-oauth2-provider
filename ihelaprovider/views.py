@@ -12,11 +12,13 @@ class iHelaAdapter(OAuth2Adapter):
     provider_id = iHelaProvider.id
 
     # Fetched programmatically, must be reachable from container
-    access_token_url = "{}/oAuth2/token/".format(settings.OAUTH_SERVER_BASEURL)
-    profile_url = "{}/api/connected-user/".format(settings.OAUTH_SERVER_BASEURL)
+    access_token_url = "{}/oAuth2/token/".format(settings.IHELA_OAUTH_SERVER_BASEURL)
+    profile_url = "{}/api/v1/connected-user/".format(
+        settings.IHELA_OAUTH_SERVER_BASEURL
+    )
 
     # Accessed by the user browser, must be reachable by the host
-    authorize_url = "{}/oAuth2/authorize/".format(settings.OAUTH_SERVER_BASEURL)
+    authorize_url = "{}/oAuth2/authorize/".format(settings.IHELA_OAUTH_SERVER_BASEURL)
 
     # NOTE: trailing slashes in URLs are important, don't miss it
 

@@ -28,6 +28,6 @@ Quick start
 3. Run `python manage.py migrate` to create the polls models.
 
 4. Start the development server and visit http://127.0.0.1:8000/admin/
-   to the iHela provider with the application credentials given (you'll need the Admin app enabled).
+   to add the iHela provider with the application credentials given (you'll need the Admin app enabled).
 
 Visit [iHela](https://ihela.online) and [django-allauth](https://github.com/pennersr/django-allauth).
